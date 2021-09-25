@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+.section1{
+    background-image: url('maldives1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    padding-top: 20%;
+    line-height: 1;
+    color: white;
+}
+h1{
+    font-size: 125px;   
+}
+h1:hover{
+    font-size: 130px;
+}
+p{
+    font-size: 25px;
+    font-family: 'MonteCarlo', cursive;
+}
+button{
+    background-color: grey;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 25px;
+    font-family: 'MonteCarlo', cursive;
+}
+button:hover{
+    background-color: none;
+    font-size: 30px;
+    color: khaki;
+}   
+.section2{
+    background-color: grey;
+    text-align: justify;
+    padding: 5px 20px;
+    font-family: 'MonteCarlo', cursive;
+}
+.section3{
+    text-align: justify;
+    padding: 5px 20px;
+    font-family: 'MonteCarlo', cursive;
+}
+.section4{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: flex-start;
+    background-color: grey;
+    font-family: 'MonteCarlo', cursive;
+}
+.section4 .para1{
+    width: 33.33vw;
+    text-align:justify;
+    padding: 10px 25px;
+}
+.section4 .para2{
+    background-color: honeydew;
+    width: 33.33vw;
+    text-align:justify;
+    padding: 10px 25px;
+}
+.section4 .para3{
+    width: 33.33vw;
+    text-align:justify;
+    padding: 10px 25px;
+}
